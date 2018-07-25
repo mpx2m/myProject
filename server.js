@@ -78,6 +78,8 @@ const buildHTMLPage = ({html, data, css}) => `
         <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
         <meta charset="utf-8">
         <title>RainyDev</title>
+        <link rel="icon" type="image/png" href="/assets/img/logo16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/assets/img/logo32.png" sizes="32x32">
         <style>${staticCSS2}</style>
     </head>
     <body>
