@@ -1,0 +1,58 @@
+﻿.Toolbar {
+  float: left;
+  font-family: 'Trebuchet MS'; 
+  font-size: 14px;
+  font-variant: small-caps;
+  text-align: center;
+  background: #F2F7FE;
+  padding: 10px 15px 3px 10px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  border: 1px solid #7B899B;
+}
+
+.Toolbar button {
+  padding: 6px;
+  margin: 7px 2px;
+  font-variant: normal;
+  font-size: 12px;
+}
+
+.CanvasContainer {
+  clear: both;
+}
+
+#drawingCanvas {
+  border: 1px solid #7B899B;
+  background:white;
+}
+
+.painter img {
+  padding: 2px;
+  border: 2px solid #F2F7FE;
+}
+
+.painter img:hover {
+  border: 2px groove #E4F0FE;
+  background: white;
+}
+
+
+.painter img.Selected {
+  border: 2px groove #E4F0FE;
+}
+
+#savedCopyContainer {
+  display: none;
+}
+
+#savedCopyContainer img {
+  width: 250px;
+  height: 150px;
+}
+
+.painter{
+  margin-top:75px;
+  display: flex;
+  justify-content:center;
+}

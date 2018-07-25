@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>RainyDev</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" style="color:#EBF4EA;" href="/">RainyDev</a>
+      <a class="navbar-brand" href="/mongodbapp"><small>演示页面首页</small></a>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right">
+      <% if (currentUser) { %>
+        <li>
+          <a href="/mongodbapp/edit">
+            Hello, <%= currentUser.name() %>
+          </a>
+        </li>
+        <li><a href="/mongodbapp/logout">登出</a></li>
+      <% } else { %>
+        <li><a href="/mongodbapp/login">登入</a></li>
+        <li><a href="/mongodbapp/signup">注册</a></li>
+      <% } %>
+    </ul>
+
+  </div>
+</div>
+
+<div class="container">
+
+  <% errors.forEach(function(error) { %>
+    <div class="alert alert-danger" role="alert">
+      <%= error %>
+    </div>
+  <% }) %>
+
+  <% infos.forEach(function(info) { %>
+    <div class="alert alert-info" role="alert">
+      <%= info %>
+    </div>
+  <% }) %>

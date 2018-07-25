@@ -1,0 +1,14 @@
+<% include _header %>
+
+<% if ((currentUser) && (currentUser.id === user.id)) { %>
+  <a href="/mongodbapp/edit" class="pull-right text-success">编辑基本信息</a>
+<% } %>
+
+<h1><%= user.name() %></h1>
+<h2>注册时间 <%= user.createdAt %></h2>
+
+<% if (user.bio) { %>
+  <p><%= user.bio %></p>
+<% } %>
+
+<% include _footer %>

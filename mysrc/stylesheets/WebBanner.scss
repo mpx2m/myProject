@@ -1,0 +1,19 @@
+.webCarousel {
+    max-width:1800px;
+    margin:0 auto;
+}
+
+.Carouselimage{
+    width:100%;
+    min-width: 700px;
+    max-width:1800px;
+}
+
+@media (max-width:700px){
+    .Carouselimage{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-left: -350px;
+    }
+}

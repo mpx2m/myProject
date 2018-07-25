@@ -1,0 +1,89 @@
+@import "globals";
+
+.appcolor section.color {
+  height: 235px;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  margin: 1em;
+  padding: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background:white;
+  border:solid 1px #DFDFDF;
+  transition: box-shadow 0.3s;
+
+
+  @media screen and (min-width: $break-sm) {
+    flex-basis: calc(50% - 2em - 4px);
+  }
+
+  @media screen and (min-width: $break-md) {
+    flex-basis: calc(33.33333% - 2em - 4px);
+  }
+
+  @media screen and (min-width: $break-lg) {
+    flex-basis: calc(25% - 2em - 4px);
+  }
+
+  @media screen and (min-width: $break-xl) {
+    flex-basis: calc(16.66666% - 2em - 4px);
+  }
+
+  h1 {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    padding: .5em;
+    flex-basis: calc(100% - 1em);
+    font-size: 20px;
+  }
+
+
+  button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    flex-basis: calc(12% - 1em);
+    text-align: right;
+    @include fade-bg($light, $light-grey);
+    border-radius: .5px;
+    padding:5px 10px;
+    border:solid 1px #D1D1D1;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+  > div:last-child {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: .5em;
+  }
+
+  div.color {
+    height: 100px;
+    flex-basis: 100%;
+
+  }
+
+  div.color:hover{
+    cursor: pointer;
+  }
+
+
+  div.time-ago {
+    position: absolute;
+    bottom: .5em;
+    right: .5em;
+    font-family: monospace;
+    color: darken($light-grey, 40%);
+  }
+
+}
+
+section.color:hover {
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+}

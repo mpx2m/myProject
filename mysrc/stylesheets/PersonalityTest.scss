@@ -1,0 +1,67 @@
+  .personalityTestContainer div {
+    margin-top: 14px;
+    border-top: 1px solid #D8EEFE;
+    max-width: 600px;
+  }
+  
+  .personalityTestContainer div img {
+  text-align: bottom;
+  }
+  
+  .personalityTestContainer div span {
+    margin: 10px;
+  }
+  
+  .personalityTestContainer input {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    padding: 2px 5px;
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 14px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 1px;
+    margin-left:5px
+  }
+  
+  .personalityTestContainer input:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+  }
+  
+  .personalityTestContainer .Selected {
+    border: 1px outset;color:#369;
+    background: #efefef;
+  }
+  
+  .personalityTestContainer button {
+    margin-top:20px;
+  }
+
+  .buttoncenter{
+    display: flex;
+    justify-content:center;
+  }
+
+  .personalityTestContainer {
+    margin-top:75px;
+    display: flex;
+    justify-content:center;
+  }
+
+  .pTestContainerItem{
+    margin-bottom:25px
+  }
+
+  .pTestContainerItem h3 {
+    margin-bottom:20px
+  }
+
+

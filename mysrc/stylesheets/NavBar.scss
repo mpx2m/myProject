@@ -1,0 +1,19 @@
+.rainyDevNav nav {
+    background: #4296EC;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+}
+
+.logo{
+    margin-bottom: 3px;
+    margin-right:-2px;
+    transition: all 0.3s
+}
+.logo:hover{
+    transform: rotate(45deg)
+}
+
+body {
+    background:#FAFAFA
+}

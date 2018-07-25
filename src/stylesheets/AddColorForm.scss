@@ -1,0 +1,51 @@
+@import "globals";
+
+.appcolor form.add-color {
+  width: 100%;
+  display: flex;
+  padding:0 4px;
+  flex-flow: row wrap;
+  margin-top:5px;
+
+  >:first-child {
+    flex-grow: 1;
+  }
+
+  input, button {
+    margin: .5em;
+    padding: .25em;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  input[type="color"] {
+    padding: 0;
+    height: +2em;
+    border: solid 1px #CFD4DA;
+    transition: all 0.3s
+  }
+
+  input[type="text"] {
+    border: solid 1px #CFD4DA;
+    transition: all 0.3s
+  }
+
+  input[type="text"]:focus, input[type="color"]:focus {
+    border: solid 1px #8ABDFA;
+    box-shadow: 0 0 0 3px #CADEFD;
+  }
+
+
+  button {
+    background-color: #50A451;
+    color: white;
+    border: none;
+    padding:5px 20px
+  }
+
+  button:hover{
+    background-color: #418542;
+    cursor: pointer;
+  }
+
+}

@@ -1,0 +1,20 @@
+<% include _header %>
+
+<h2>Welcome To 注册用户列表</h2>
+
+<% users.forEach(function(user) { %>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <a class="text-success" href="/mongodbapp/users/<%= user.username %>">
+        <%= user.name() %>
+      </a>
+    </div>
+    <% if (user.bio) { %>
+      <div class="panel-body"><%= user.bio %></div>
+    <% } %>
+  </div>
+
+<% }) %>
+
+<% include _footer %>

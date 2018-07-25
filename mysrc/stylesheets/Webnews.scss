@@ -1,0 +1,35 @@
+.Webnewscontrainer{
+    background:#F7F8F9;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.cnIndustry {
+    color:#212529;
+    font-size:21px
+}
+
+.enIndustry {
+    color:#757575;
+    font-size:16px;
+    margin-left:10px
+}
+
+.newstitle {
+    color:#212529;
+    font-size:16px;
+    margin-bottom: 0;
+    margin-bottom:20px;
+}
+
+.newsdate {
+    margin-right:15px
+}
+
+.secIndustry {margin-bottom: 20px}
+
+.newstitle:hover {
+    text-decoration: underline;
+    color:#D55C4A;
+    cursor: pointer;
+}

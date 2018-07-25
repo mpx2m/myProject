@@ -1,0 +1,69 @@
+.Webfootercontrainer {
+    background:#4D4D4D;
+}
+
+.fatfooter {
+    padding:20px 0
+}
+
+.Webfootercontrainer p {
+    margin:0;
+}
+
+.copyrihgt {
+    background:#2C2C2C;
+}
+
+.title-footer,.copyrihgt {
+    color:white;
+    font-size: 16px
+}
+
+.title-footer {
+    padding-bottom: 5px
+}
+
+.link-footer, .info-footer, .copyrihgt{
+    color:rgba(255,255,255,0.8);
+    font-size: 14px
+}
+
+.link-footer, .info-footer {
+    line-height: 2
+}
+
+.webfooter{
+    padding:5px 0
+}
+
+.logo-footer {
+    margin-bottom:8px
+}
+
+.logo-footer-img {
+    height:35px;
+    width:35px;
+}
+
+.web-footer-rainy {
+    font-size:20px;
+    color:white;
+    margin-left:10px
+}
+
+.footercontainer {
+    padding:20px;
+}
+
+.wechat-footer {
+    background-image: url('/assets/img/qrcode.png');
+    height:85px;
+    width:85px;
+    background-size: 100% 100%;
+    margin:2px 0
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

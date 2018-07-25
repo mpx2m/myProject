@@ -1,0 +1,47 @@
+
+.testScoreContainer header {
+  background: #EDEFF1;
+  color: #212529;
+  margin: 0px;
+  padding: 20px;
+  font-size: smaller;
+  border-radius: 10px
+}
+
+.testScoreContainer header h1 {
+  margin: 0px;
+}
+
+.testScoreContainer header p {
+  margin: 0px;
+  font-size: large;
+}
+
+.testScoreContainer .score {
+  margin: 25px;
+}
+
+.testScoreContainer .score h2 {
+  font-weight: normal;
+  margin-bottom: 5px;
+  font-size: 18px;
+
+}
+
+.testScoreContainer canvas {
+  border-radius: 15px;
+  background: #FFF8DC;
+}
+
+.testScoreContainer img {
+  visibility: hidden;
+}
+
+
+// my code
+.testScoreContainer{
+    margin-top:75px;
+    display: flex;
+    justify-content:center;
+}
+

@@ -1,0 +1,11 @@
+@import "globals";
+
+.appcolor div.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.noColor{
+  margin-left:12px
+}

@@ -1,0 +1,46 @@
+@import "globals";
+
+.appcolor nav {
+
+  display: flex;
+  justify-content: space-around;
+  color: #11111C;
+  background:#F5F5F5;
+  border-bottom: solid 1px #EEEEEE;
+
+  h1 {
+    display: none;
+  }
+
+  a {
+    display:inline-block;
+    width:33.3%;
+    color: #222529;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    margin:10px 0 7px 0;
+    transition: all 0.5s;
+    padding:10px 0;
+
+
+    &.selected {
+      color: white;
+    }
+  }
+
+
+  a:hover {
+    background:#EBEBEB;
+  }
+}
+
+.timeicon, .nameicon, .ratingicon {
+  font-size:24px;
+  color:#888888;
+  margin-right:10px;
+  position: relative;
+  top:-1px;
+}

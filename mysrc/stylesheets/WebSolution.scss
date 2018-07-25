@@ -1,0 +1,70 @@
+.solution1, .solution2, .solution3{
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+    transition: all 0.4s
+}
+
+.WebSolutioncontainer{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.solution1{
+    background-image:url(/assets/img/solution3.jpg)
+}
+
+.solution2{
+    background-image:url(/assets/img/solution2.jpg)
+}
+
+.solution3{
+    background-image:url(/assets/img/solution1.jpg)
+}
+
+.ensol{
+    color:#757575;
+    font-size: 14px;
+    margin-bottom:0px;
+}
+.cnsol {
+    margin-bottom: 5px;
+}
+
+.sectfexItem {
+    margin-top:10px
+}
+
+@media (max-width: 1199.98px) {
+    .solution1, .solution2, .solution3{
+        display:none
+    }
+
+    .sectfexItem {
+        margin-top:0px
+    }
+}
+
+@media (max-width: 575.98px) {
+    .solucol{
+        margin-top:10px;
+        margin-bottom:10px
+    }
+
+    .WebSolutioncontainer{
+        margin-top:5px;
+        margin-bottom:15px;
+    }
+
+
+}
+
+.solutiongroup:hover p{
+    color:#D55C4A;
+    cursor: pointer;
+}
+
+.solutiongroup:hover .solution1, .solutiongroup:hover .solution2, .solutiongroup:hover .solution3{
+    box-shadow: 1px 2px 4px 0 rgba(0,0,0,.4);
+    transform: rotate(12deg)
+}

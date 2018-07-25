@@ -1,0 +1,41 @@
+.cardhover:hover {
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.3);
+}
+
+.cardhover {
+    overflow: hidden;
+    transition: -webkit-box-shadow, -moz-box-shadow, box-shadow 0.3s;
+}
+
+.cardhover:hover .cardimgtrans{
+    transform: scale(1.07);
+}
+.cardimgtrans {
+    transition: all 0.3s;
+}
+
+//覆盖给card加<a>的css
+.carlink:hover {
+    text-decoration: none;
+    color:#222529;
+}
+
+.carlink {
+    color:#222529;
+}
+
+.carlink button {
+    margin-left: 0
+}
+//
+.reactbtn{
+    color:#6F4EB5;
+    border-color: #6F4EB5;
+}
+
+.reactbtn:hover{
+    background: #6F4EB5;
+    border-color: #6F4EB5;
+}

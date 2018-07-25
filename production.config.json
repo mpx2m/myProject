@@ -1,0 +1,8 @@
+{
+  "es": {
+    "host": "982a2kqiap:kuhyz27egr@wangzhan-6150916697.us-east-1.bonsaisearch.net",
+    "port": 443,
+    "books_index": "books",
+    "bundles_index": "b4"
+  }
+}

@@ -1,0 +1,21 @@
+﻿#canvas {
+  border: 6px double black;
+  background: white;
+  margin-top:8px;
+  margin-bottom:25px
+}
+
+#face {
+  display: none;
+}
+
+.mazeContainer button {
+  margin-right:8px;
+  margin-bottom:3px
+}
+
+.mazeContainer {
+  margin-top:75px;
+  display: flex;
+  justify-content:center;
+}
